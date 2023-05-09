@@ -1,0 +1,39 @@
+{
+    "products":[
+        {
+            "id" : 1,
+            "name": "butterfly strapdress",
+            "price": 35.65,
+            "image": "./photos/butypinku.png",
+            "description": "shiny princess appearance with classic model",
+            "color": "pink"
+        },{
+            "id" : 2,
+            "name": "kids royaldress",
+            "price": 55.65,
+            "image": "./photos/glitteryblue.png",
+            "description": "Traditional style shinnning armor in royal blue",
+            "color": "dark blue"
+        },{
+            "id" : 3,
+            "name": "evergreen autumndress",
+            "price": 22.65,
+            "image": "./photos/greenyglss.png",
+            "description": "pleasant grassary green with peaceful appearance",
+            "color": "green"
+        },{
+            "id" : 4,
+            "name": "princess pink",
+            "price": 65.65,
+            "image": "./photos/pinkyy.png",
+            "description": "pretty birthday favour princess wardrobe",
+            "color": "pinky"
+        },{
+            "id" : 5,
+            "name": "peaceful oceanblue",
+            "price": 31.65,
+            "image": "./photos/plainskyblu.png",
+            "description": "tredy pic from the ocean blue",
+            "color": "Skyblue"
+        }]
+}
