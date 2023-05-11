@@ -13,7 +13,18 @@ shopping products by adding them in the cart
 -footer
 
 3. create products homescreen
--create ul products
--create li products
--create div product
--style ul products and li products
+
+-create div product in html
+-style div product
+
+4. getting products in node.js 
+-creating card element
+-getting products in node.js
+-append it to div in html
+-rendering product to webpage using fetch
+
+
+5. styling products in css
+-after rendering product
+-style card element
+
