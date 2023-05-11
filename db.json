@@ -5,79 +5,62 @@
       "name": "blueleafy button",
       "price": 25,
       "rating": 9,
-      "wishlist": "♡",
-      "image": "./photos/boys/boy1.png",
-      "likes": "♡"
+      "image": "./photos/boys/boy1.png"
     },
     {
       "id": 2,
       "name": "orange familymatch",
       "price": 24,
       "rating": 8,
-      "wishlist": "♡",
-      "image": "./photos/boys/boy2.png",
-      "likes": "♡"
+      "image": "./photos/boys/boy2.png"
     },
     {
       "id": 3,
       "name": "blue sporty",
       "price": 15.05,
       "rating": 6,
-      "wishlist": "♡",
-      "image": "./photos/boys/boy3.png",
-      "likes": "♡"
+      "image": "./photos/boys/boy3.png"
     },
     {
       "id": 4,
       "name": "white boys",
       "price": 30,
       "rating": 9,
-      "wishlist": "♡",
-      "image": "./photos/boys/boy4.png",
-      "likes": "♡"
+      "image": "./photos/boys/boy4.png"
     },
     {
       "id": 5,
       "name": "dino rawr",
       "price": 45.65,
       "rating": 6,
-      "wishlist": "♡",
-      "image": "./photos/boys/boy5.png",
-      "likes": "♡"
+      "image": "./photos/boys/boy5.png"
     },
     {
       "id": 6,
       "name": "cute puppie",
       "price": 45.5,
       "rating": 8,
-      "wishlist": "♡",
-      "image": "./photos/boys/boy6.png",
-      "likes": "♡"
+      "image": "./photos/boys/boy6.png"
     },
     {
       "id": 7,
       "name": "white miami",
       "price": 24.65,
       "rating": 9,
-      "wishlist": "♡",
-      "image": "./photos/boys/boy7.png",
-      "likes": "♡"
+      "image": "./photos/boys/boy7.png"
     },
     {
       "id": 8,
       "name": "adidas white",
       "price": 31.65,
       "rating": 6,
-      "wishlist": "♡",
-      "image": "./photos/boys/boy8.png",
-      "likes": "♡"
+      "image": "./photos/boys/boy8.png"
     },
     {
       "id": 9,
       "name": "butterfly strapdress",
       "price": 35.65,
       "rating": 8,
-      "wishlist": "♡",
       "image": "./photos/girls/girl1.png"
     },
     {
@@ -85,7 +68,6 @@
       "name": "kids royaldress",
       "price": 55.65,
       "rating": 9,
-      "wishlist": "♡",
       "image": "./photos/girls/girl2.png"
     },
     {
@@ -93,7 +75,6 @@
       "name": "evergreen autumndress",
       "price": 22.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/girls/girl3.png"
     },
     {
@@ -101,7 +82,6 @@
       "name": "princess pink",
       "price": 65.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/girls/girl4.png"
     },
     {
@@ -109,7 +89,6 @@
       "name": "peaceful oceanblue",
       "price": 31.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/girls/girl5.png"
     },
     {
@@ -117,7 +96,6 @@
       "name": "evergreen autumndress",
       "price": 22.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/girls/girl6.png"
     },
     {
@@ -125,7 +103,6 @@
       "name": "princess pink",
       "price": 65.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/girls/girl7.png"
     },
     {
@@ -133,7 +110,6 @@
       "name": "peaceful oceanblue",
       "price": 31.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/girls/girl8.png"
     },
     {
@@ -141,7 +117,6 @@
       "name": "black gucci",
       "price": 135.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/watches/watch1.png"
     },
     {
@@ -149,7 +124,6 @@
       "name": "silver citizen",
       "price": 255.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/watches/watch2.png"
     },
     {
@@ -157,7 +131,6 @@
       "name": "omega blue",
       "price": 220.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/watches/watch3.png"
     },
     {
@@ -165,7 +138,6 @@
       "name": "quartz stainless",
       "price": 650.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/watches/watch4.png"
     },
     {
@@ -173,7 +145,6 @@
       "name": "pinkchain fossil",
       "price": 310.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/watches/watch5.png"
     },
     {
@@ -181,7 +152,6 @@
       "name": "fossil silver",
       "price": 202.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/watches/watch6.png"
     },
     {
@@ -189,7 +159,6 @@
       "name": "goldsteel movado",
       "price": 605.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/watches/watch7.png"
     },
     {
@@ -197,7 +166,6 @@
       "name": "katespade flowery",
       "price": 301.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/watches/watch8.png"
     },
     {
@@ -205,7 +173,6 @@
       "name": "prada brown",
       "price": 85.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/sunglasses/sunglass1.png"
     },
     {
@@ -213,7 +180,6 @@
       "name": "armani brown",
       "price": 75.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/sunglasses/sunglass2.png"
     },
     {
@@ -221,7 +187,6 @@
       "name": "ray-Ban blueshade",
       "price": 62.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/sunglasses/sunglass3.png"
     },
     {
@@ -229,7 +194,6 @@
       "name": "versace mens",
       "price": 165.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/sunglasses/sunglass4.png"
     },
     {
@@ -237,7 +201,6 @@
       "name": "alphine black",
       "price": 30.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/sunglasses/sunglass5.png"
     },
     {
@@ -245,7 +208,6 @@
       "name": "evergreen armani",
       "price": 77.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/sunglasses/sunglass6.png"
     },
     {
@@ -253,7 +215,6 @@
       "name": "prada rayy",
       "price": 96.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/sunglasses/sunglass7.png"
     },
     {
@@ -261,8 +222,14 @@
       "name": "armani black",
       "price": 54.65,
       "rating": 6,
-      "wishlist": "♡",
       "image": "./photos/sunglasses/sunglass8.png"
+    },
+    {
+      "name": "hat",
+      "price": "10",
+      "rating": "8",
+      "image": "https://media.istockphoto.com/id/186810611/photo/turquoise-sun-hat.jpg?s=1024x1024&w=is&k=20&c=gxmsh2b74BOKJ2rSO1nTk07L70y3G_j5sMmCFFDoC1Q=",
+      "id": 33
     }
   ]
 }
