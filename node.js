@@ -19,7 +19,7 @@ function createCardElement(product){
     button.id = product.id
     button.textContent = 'Add to cart';
     let p1 = document.createElement('p1')
-    p1.textContent = product.wishlist;
+    p1.textContent = '♡';
     p1.classList.add('wishList');
     p1.addEventListener('click',()=>{
         if(p1.innerText==='♡'){
@@ -36,13 +36,10 @@ function createCardElement(product){
     document.getElementById("product-collection").appendChild(card)
 
 }
-document.addEventListener("DOMContentLoaded", () => {
-    fetch("http://localhost:3000/products").then(res=>res.json()).then(products=> products.forEach(product=>createCardElement(product)))
-})
 //console.log( fetch("http://localhost:3000/products").then(res=>res.json())).then(data=>console.log(data))
    
 //updating like in wishlist
-function updateLike(id,newLikes){
+function updateLike(id,newWishlist){
     fetch(`http://localhost:3000/products/${id}`,{
       method :"PATCH",
       headers:
@@ -51,8 +48,35 @@ function updateLike(id,newLikes){
         "Accept": "application/json"
       },
       body: JSON.stringify({
-        "likes" : newLikes
+        "wishlist" : newWishlist
       })
     })
   }
   
+
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("http://localhost:3000/products").then(res=>res.json()).then(products=> products.forEach(product=>createCardElement(product)))
+    const form =document.getElementById('newform')
+
+    form.addEventListener('submit',(e)=>{
+        e.preventDefault();
+        const formData = Object.fromEntries(new FormData(e.target)) //it have all e.target.productitem.value
+        console.log(formData);
+        sendPost(formData)
+   
+    })
+})
+function sendPost(newProduct){
+    fetch('http://localhost:3000/products',{
+        method: "POST",
+        headers: 
+        {
+            "Content-Type" : "application/json",
+            "Accept" : "application/json"
+        },
+        body: JSON.stringify({
+               ...newProduct, //name= newProduct.name, image = newProduct.image,...
+        })
+    }).then(res=>res.json()).then(newProduct =>createCardElement(newProduct))
+}
+
