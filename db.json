@@ -1,7 +1,7 @@
 
 {
-        "boys":[
-            {
+    "products":[{
+        
                 "id" : 1,
                 "name": "blueleafy button",
                 "price": 25.00,
@@ -49,138 +49,136 @@
                 "price": 31.65,
                 "image": "./photos/boys/boy8.png"
                 
-            }],
-             "girls":[
+            },
+        
                 {
-            "id" : 1,
+            "id" : 9,
             "name": "butterfly strapdress",
             "price": 35.65,
             "image": "./photos/girls/girl1.png"
             },{
-            "id" : 2,
+            "id" : 10,
             "name": "kids royaldress",
             "price": 55.65,
             "image": "./photos/girls/girl2.png"
             },{
-            "id" : 3,
+            "id" : 11,
             "name": "evergreen autumndress",
             "price": 22.65,
             "image": "./photos/girls/girl3.png"
             },{
-            "id" : 4,
+            "id" : 12,
             "name": "princess pink",
             "price": 65.65,
             "image": "./photos/girls/girl4.png"
             },{
-            "id" : 5,
+            "id" : 13,
             "name": "peaceful oceanblue",
             "price": 31.65,
             "image": "./photos/girls/girl5.png"
             },{
-            "id" : 6,
+            "id" : 14,
             "name": "evergreen autumndress",
             "price": 22.65,
             "image": "./photos/girls/girl6.png"
             },{
-            "id" : 7,
+            "id" : 15,
             "name": "princess pink",
             "price": 65.65,
             "image": "./photos/girls/girl7.png"
             },{
-            "id" : 8,
+            "id" : 16,
             "name": "peaceful oceanblue",
             "price": 31.65,
             "image": "./photos/girls/girl8.png"
-                  }],
-   
-            "watches":[
+                  },
                 {
-                    "id" : 1,
+                    "id" : 17,
                     "name": "black gucci",
                     "price": 135.65,
                     "image": "./photos/watches/watch1.png"
                    },{
-                    "id" : 2,
+                    "id" : 18,
                     "name": "silver citizen",
                     "price": 255.65,
                     "image": "./photos/watches/watch2.png"
                    },{
-                    "id" : 3,
+                    "id" : 19,
                     "name": "omega blue",
                     "price": 220.65,
                     "image": "./photos/watches/watch3.png"
                    },{
-                    "id" : 4,
+                    "id" : 20,
                     "name": "quartz stainless",
                     "price": 650.65,
                     "image": "./photos/watches/watch4.png"
                    },{
-                    "id" : 5,
+                    "id" : 21,
                     "name": "pinkchain fossil",
                     "price": 310.65,
                     "image": "./photos/watches/watch5.png"
                    },{
-                "id" : 6,
+                "id" : 22,
                 "name": "fossil silver",
                 "price": 202.65,
                 "image": "./photos/watches/watch6.png"
                 
             },{
-                "id" : 7,
+                "id" : 23,
                 "name": "goldsteel movado",
                 "price": 605.65,
                 "image": "./photos/watches/watch7.png"
                 
             },{
-                "id" : 8,
+                "id" : 24,
                 "name": "katespade flowery",
                 "price": 301.65,
                 "image": "./photos/watches/watch8.png"
                 
-            }],
-                "sunglasses":[
+            },
                     {
-                        "id" : 1,
+                        "id" : 25,
                         "name": "prada brown",
                         "price": 85.65,
                         "image": "./photos/sunglasses/sunglass1.png"
                     },{
-                        "id" : 2,
-                        "name": "armani blueshade",
+                        "id" : 26,
+                        "name": "armani brown",
                         "price": 75.65,
                         "image": "./photos/sunglasses/sunglass2.png"
                     },{
-                        "id" : 3,
-                        "name": "ray-Ban brown",
+                        "id" : 27,
+                        "name": "ray-Ban blueshade",
                         "price": 62.65,
                         "image": "./photos/sunglasses/sunglass3.png"
                     },{
-                        "id" : 4,
+                        "id" : 28,
                         "name": "versace mens",
                         "price": 165.65,
                         "image": "./photos/sunglasses/sunglass4.png"
                     },{
-                        "id" : 5,
+                        "id" : 29,
                         "name": "alphine black",
                         "price": 30.65,
                         "image": "./photos/sunglasses/sunglass5.png"
                     },{
-                "id" : 6,
+                "id" : 30,
                 "name": "evergreen armani",
                 "price": 77.65,
                 "image": "./photos/sunglasses/sunglass6.png"
                 
             },{
-                "id" : 7,
+                "id" : 31,
                 "name": "prada rayy",
                 "price": 96.65,
                 "image": "./photos/sunglasses/sunglass7.png"
                 
             },{
-                "id" : 8,
-                "name": "armani blue",
+                "id" : 32,
+                "name": "armani black",
                 "price": 54.65,
                 "image": "./photos/sunglasses/sunglass8.png"
                 
             }]
+    
 }
