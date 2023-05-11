@@ -31,8 +31,10 @@ function createCardElement(product){
 
         updateLike(product.id,product.wishlist)
     })
-    
-    card.append(h2,img,p,a,button,p1)
+    let p2 = document.createElement('p2')
+    p2.textContent = `review: ${product.review}`;
+    p2.classList.add('reviw');
+    card.append(h2,img,p,a,p2,button,p1)
     document.getElementById("product-collection").appendChild(card)
 
 }
@@ -80,3 +82,49 @@ function sendPost(newProduct){
     }).then(res=>res.json()).then(newProduct =>createCardElement(newProduct))
 }
 
+/* updating ratings and comment */
+const updateForm = document.getElementById('editform')
+updateForm.addEventListener('submit',(e)=>{
+    console.log("update by changing form submitted")
+    e.preventDefault();
+    const rating = e.target.rating.value;
+    const review = e.target.review.value;
+    const id = e.target.id.value
+    console.log(rating,review,id);
+    updatePost(rating,review,id);
+})
+function updatePost(upRating,upReview,id){
+    fetch(`http://localhost:3000/products/${id}`,{
+        method: "PATCH",
+        headers: 
+        {
+            "Content-Type" : "application/json",
+            "Accept" : "application/json"
+        },
+        body: JSON.stringify({
+           "rating" : upRating,
+           "review" : upReview,
+           })
+    }).then(res=>res.json()).then(newProduct =>createCardElement(newProduct))
+}
+/* deleting form (product by getting id) */
+const deleteForm = document.getElementById('deleteform')
+deleteForm.addEventListener('submit',(e)=>{
+    console.log("delete form by id")
+    e.preventDefault();
+    const id = e.target.id.value
+    console.log(id);
+
+    deletePost(id)
+}
+)
+function deletePost(id){
+    fetch(`http://localhost:3000/products/${id}`,{
+        method: "DELETE",
+        headers: 
+        {
+            "Content-Type" : "application/json",
+            
+        }
+    
+}).then(data=>data.json).then(product=>console.log(product))}
