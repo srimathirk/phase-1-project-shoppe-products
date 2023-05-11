@@ -44,9 +44,6 @@ shopping products by adding them in the cart
 -create reviews for the products
 -update ratings and reviews for that particular product
 
-9. deleting card or particular product using id
--getting id of particular product
--deleting that product associated with id
 
 
 
