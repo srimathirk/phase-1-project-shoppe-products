@@ -9,9 +9,19 @@ function createCardElement(product){
     img.src = product.image;
     img.classList.add('prodImage')//class=prodImage
     let p = document.createElement('p')
-    p.textContent =`${product.price} price`
+    p.textContent =`${product.price} $`;
+    let a = document.createElement('a')
+    a.textContent = `rating ${product.rating}/10`;
+    a.setAttribute('id', 'my-new-element');
+    let button = document.createElement('button')
+    button.classList.add('like-btn')
+    button.id = product.id
+    button.textContent = 'Add to cart';
+    let p1 = document.createElement('p1')
+    p1.textContent = product.wishlist;
+    p1.classList.add('wishList');
     
-    card.append(h2,img,p)
+    card.append(h2,img,p,a,button,p1)
     document.getElementById("product-collection").appendChild(card)
 
 }
