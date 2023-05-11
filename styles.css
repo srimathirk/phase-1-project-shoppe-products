@@ -32,7 +32,7 @@ header a{
     padding: 15px;
 }
 header a:hover{
-    color: #f11111;
+    color: #e14f15;
 }
 .logo>img{
     width: 150px;
@@ -45,25 +45,20 @@ footer{
     color: #ffffff;
     font-size: 20px;
 }
-.products{
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    padding: 10px;
-    margin: 0;
-    justify-content: center;
-}
-.products li{
-    flex: 0 1 30rem;
-    margin: 1rem;
-    margin-bottom: 0;
-    height: 42rem;
-    border-top:0.2rem ;
-}
-.product{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100px;
-    height: 80px;
-}
+.card {
+    text-align: center;
+    border: rgb(65, 218, 59) solid 1px;
+    padding: 1rem;
+    width: 19rem;
+    height: 25rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #ea40e7
+  }
+  
+  .prodImage {
+    justify-self: center;
+    height: 12rem;
+    width: auto;
+  }
+  
