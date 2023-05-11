@@ -35,4 +35,11 @@ shopping products by adding them in the cart
 -style the reviews in styles.css
 -display reviews,wishlist and add to cart in application 
 
+7. creating form to update new card Element in the application
+-adding form data in index.html
+-adding all the target values to addEventListener to submit the form
+-display the new product/form in the application
+
+
+
 
