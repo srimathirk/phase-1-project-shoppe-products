@@ -11,7 +11,8 @@
       "id": 2,
       "name": "orange familymatch",
       "price": 24,
-      "rating": 8,
+      "rating": "10",
+      "review": "cool",
       "image": "./photos/boys/boy2.png"
     },
     {
@@ -40,6 +41,7 @@
       "name": "cute puppie",
       "price": 45.5,
       "rating": 8,
+      "review": "fits perfect",
       "image": "./photos/boys/boy6.png"
     },
     {
@@ -61,6 +63,7 @@
       "name": "butterfly strapdress",
       "price": 35.65,
       "rating": 8,
+      "review": "fits perfect",
       "image": "./photos/girls/girl1.png"
     },
     {
@@ -82,6 +85,7 @@
       "name": "princess pink",
       "price": 65.65,
       "rating": 6,
+      "review": "fits perfect",
       "image": "./photos/girls/girl4.png"
     },
     {
@@ -103,6 +107,7 @@
       "name": "princess pink",
       "price": 65.65,
       "rating": 6,
+      "review": "fits perfect",
       "image": "./photos/girls/girl7.png"
     },
     {
@@ -124,6 +129,7 @@
       "name": "silver citizen",
       "price": 255.65,
       "rating": 6,
+      "review": "fits perfect",
       "image": "./photos/watches/watch2.png"
     },
     {
@@ -158,8 +164,9 @@
       "id": 23,
       "name": "goldsteel movado",
       "price": 605.65,
-      "rating": 6,
-      "image": "./photos/watches/watch7.png"
+      "rating": "15",
+      "image": "./photos/watches/watch7.png",
+      "review": "gotogo"
     },
     {
       "id": 24,
@@ -180,6 +187,7 @@
       "name": "armani brown",
       "price": 75.65,
       "rating": 6,
+      "review": "fits perfect",
       "image": "./photos/sunglasses/sunglass2.png"
     },
     {
@@ -194,6 +202,7 @@
       "name": "versace mens",
       "price": 165.65,
       "rating": 6,
+      "review": "fits perfect",
       "image": "./photos/sunglasses/sunglass4.png"
     },
     {
@@ -207,29 +216,27 @@
       "id": 30,
       "name": "evergreen armani",
       "price": 77.65,
-      "rating": 6,
       "image": "./photos/sunglasses/sunglass6.png"
     },
     {
       "id": 31,
       "name": "prada rayy",
       "price": 96.65,
-      "rating": 6,
       "image": "./photos/sunglasses/sunglass7.png"
     },
     {
       "id": 32,
-      "name": "armani black",
+      "name": "armani blue",
       "price": 54.65,
-      "rating": 6,
       "image": "./photos/sunglasses/sunglass8.png"
     },
     {
       "name": "hat",
       "price": "10",
-      "rating": "8",
+      "rating": "6",
       "image": "https://media.istockphoto.com/id/186810611/photo/turquoise-sun-hat.jpg?s=1024x1024&w=is&k=20&c=gxmsh2b74BOKJ2rSO1nTk07L70y3G_j5sMmCFFDoC1Q=",
-      "id": 33
+      "id": 34,
+      "review": "gotogo"
     }
   ]
 }
