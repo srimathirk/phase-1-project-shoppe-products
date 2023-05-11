@@ -28,3 +28,11 @@ shopping products by adding them in the cart
 -after rendering product
 -style card element
 
+6. adding reviews,wishlist and add to cart button to the products
+-adding reviews,wishlist and addtocart in db.json
+-adding it to the products in node.js
+-and appending it to html file 
+-style the reviews in styles.css
+-display reviews,wishlist and add to cart in application 
+
+
