@@ -62,3 +62,10 @@ footer{
     width: auto;
   }
   
+  .activatedheart{
+    color: red;
+  }
+  
+  .rate{
+    color: #ffc000;
+  }
